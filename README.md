@@ -14,7 +14,7 @@ mkdir "$HOME/notes"
 ```
 4. Add the following to your `~/.bashrc` or `~/.zshrc`:
 ```
-export QN_HOME=$HOME/notes # Use a cloud-synchronized directory for automatic backups
-export QN_EDITOR=nvim # Use an editor of your choice
+export QN_HOME=$HOME/notes  # Use a cloud-synchronized directory for automatic backups
+export QN_EDITOR=nvim       # Use an editor of your choice
 source "$HOME/.quicknotes.sh"
 ```
