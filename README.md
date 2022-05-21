@@ -1,4 +1,4 @@
-# quicknotes-bash
+# quicknotes-shell
 Bash functions to add note-taking functionality in your shell. 
 
 ## Installation
