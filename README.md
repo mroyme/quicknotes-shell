@@ -2,16 +2,17 @@
 Bash functions to add note-taking functionality in your shell. 
 
 ## Installation
-1. Fetch this script into your home directory
+1. Install [glow](https://github.com/charmbracelet/glow).
+2. Fetch this script into your home directory
 ```bash
 curl "https://raw.githubusercontent.com/mroyme/quicknotes-shell/main/quicknotes.sh" -o "$HOME/.quicknotes.sh"
 ```
-2. Create your notes directory:
+3. Create your notes directory:
 _Skip this step if you want to use a different directory._
 ```bash
 mkdir "$HOME/notes"
 ```
-3. Add the following to your `~/.bashrc` or `~/.zshrc`:
+4. Add the following to your `~/.bashrc` or `~/.zshrc`:
 ```
 source "$HOME/.quicknotes.sh"
 ```
