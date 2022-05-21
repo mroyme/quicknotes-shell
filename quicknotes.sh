@@ -10,7 +10,7 @@ rn() {
 	if [ $# -eq 0 ]
 	then
 		glow "$QN_HOME"
-	elif [ -f "$QN_HOME/$1.md"]
+	elif [ -f "$QN_HOME/$1.md" ]
 	then
 		glow $QN_HOME/$1.md
 	else
